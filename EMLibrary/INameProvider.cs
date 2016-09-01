@@ -5,10 +5,8 @@ using System.Text;
 
 namespace EMLibrary
 {
-    class Program
+    public interface INameProvider
     {
-        static void Main(string[] args)
-        {
-        }
+        string Name { get; }
     }
 }
