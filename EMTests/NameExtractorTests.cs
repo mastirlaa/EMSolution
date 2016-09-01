@@ -47,7 +47,7 @@ namespace EMLibrary.Tests
         [TestMethod()]
         public void ExtractTestRule3()
         {
-            //If the name contains two words and the first word is a title, the second word is treated as the last name
+            // If the name contains two or more words and the first word is not a title, the first two words are treated as the first name and the last name
 
             foreach (string spacer in validSpacers)
             {
